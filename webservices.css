@@ -1,0 +1,78 @@
+h1 {
+	font-variant: small-caps;
+	margin: 5px 5px 15px 5px;
+	color: #2B908F;
+	text-shadow: 0 1px 1px #fff;
+	text-align: center;
+	/* font-family: georgia, "trebuchet ms", arial, serif; */
+}
+
+h2 {
+	font-variant: small-caps;
+	margin: 5px 5px 15px 5px;
+	color: #2B908F;
+	text-shadow: 0 1px 1px #fff;
+	text-align: center;
+	/* font-family: georgia, "trebuchet ms", arial, serif; */
+}
+
+a {
+	color: #2B908F;
+	text-decoration:none;
+}
+a.visited {
+	text-decoration:none;
+}
+
+form, input {
+	font-variant: small-caps;
+	margin: 5px;
+	color: #2B908F;
+	text-shadow: 0 1px 1px #fff;
+	text-align: center;
+	border-radius: 15px ;
+	/* font-family: georgia, "trebuchet ms", arial, serif; */
+}
+
+input[type="submit"]{
+	cursor:pointer;
+	border-radius: 15px ;
+}
+
+hr.type_3 {
+	border: 0;
+	height: 25px;
+	background-image: url(image/type_3.png);
+	background-repeat: repeat-x;
+	margin-bottom: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	width: auto;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover, tr:nth-child(even):hover {
+	background-color: #80BCBC ;
+	color: #FFF ;
+	font-weight: bold ;
+}
+th, tfoot {
+	color: white;
+	background-color: #2B908F; /* vert foncé */
+	/* background-color: #4CAF50; */ /* vert clair */
+}
+caption{
+	font-style: italic ;
+}
+
+ul {
+	list-style-type: square;
+}	
