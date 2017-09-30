@@ -88,7 +88,7 @@
 			if($set_count != 0){
 				echo '<table border=1>' ;
 				echo '<thead>' ;
-				echo '<tr><th>seq_no</th><th>no_perio</th><th>Exemplaire assigné</th><th>État</th><th>Date de réservation</th><th>Rang</th><th>Localisation de retrait</th></tr>' ;
+				echo '<tr><th>seq_no</th><th>no_perio</th><th>État</th><th>Exemplaire assigné</th><th>Date de réservation</th><th>Rang</th><th>Localisation de retrait</th></tr>' ;
 				echo '</thead>' ;
 				for($i=0; $i<=$max; $i++){
 					if($print_status[$i] == 'A') {
@@ -98,7 +98,7 @@
 						$print_status[$i] = ' avis de disponibilité imprimé' ;
 					}
 					else {$print_status[$i] = 'aucun exemplaire assigné' ;}
-					echo '<tr><td>' . $seq_no[$i]  . '</td><td>' . $issue_caption[$i]  . '</td><td>' . $document[$i]  . '</td><td>' . $print_status[$i]  . '</td><td>' . $resv_date[$i]   . '</td><td>' . $resv_rank[$i]  . '</td><td>' . $branch_desc[$i]  . '</td></tr>' ;
+					echo '<tr><td>' . $seq_no[$i]  . '</td><td>' . $issue_caption[$i]  . '</td><td>' . $print_status[$i]  . '</td><td>' . $document[$i]  . '</td><td>' . $resv_date[$i]   . '</td><td>' . $resv_rank[$i]  . '</td><td>' . $branch_desc[$i]  . '</td></tr>' ;
 				}
 				echo '</table>' ;
 			}
@@ -106,10 +106,10 @@
 				echo 'Pas de réservation en cours pour cet usager' ;
 			}
 			echo '<hr class="type_3" />' ;
-			echo 'Résultat brut (current_reservations_response) : ' ;
+			echo '<b>Résultat brut (current_reservations_response)</b> : ' ;
 			print_r($output1);
 			echo '<hr class="type_3" />' ;
-			echo 'Résultat brut (fetchReservations_response) : ' ;
+			echo '<b>Résultat brut (fetchReservations_response)</b> : ' ;
 			print_r($output2);
 			echo '<br />' ;
 		?>
