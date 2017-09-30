@@ -14,7 +14,7 @@ Attention, il faut activer curl (en décommentant la ligne extension=php_curl.dl
 
 Using PHP to query the Bibliomondo Portfolio ILS webservices
 
-Don't forget to activate curl in needed
+Don't forget to activate curl if needed
 
 For the moment, the follwing webservices can be used :
 - login_request (Authentification)
