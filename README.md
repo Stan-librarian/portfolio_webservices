@@ -14,8 +14,8 @@ cf https://sigbadmin.wordpress.com/2017/06/22/tester-les-webservices-en-php/
 ------------------------------------------------------------------------
 
 Utilisation :
-- activer curl (en décommentant la ligne extension=php_curl.dll dans php.ini), si ce n’est pas fait
 - copier les fichiers sur un serveur web avec PHP
+- activer curl (en décommentant la ligne extension=php_curl.dll dans php.ini), si ce n’est pas fait
 - modifier le fichier config.ini pour indiquer l'IP de votre serveur Portfolio
 
 ------------------------------------------------------------------------
@@ -35,6 +35,6 @@ At this time, the follwing webservices can be used :
 ------------------------------------------------------------------------
 
 How to use :
-- activate curl if needed 
 - copy files on a PHP web server
+- activate curl if needed 
 - edit config.ini to enter your Portfolio server IP
