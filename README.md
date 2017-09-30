@@ -9,6 +9,7 @@ Attention, il faut activer curl (en décommentant la ligne extension=php_curl.dl
 - login_request (Authentification)
 - get_patron_summary_request (Détail d'un usager)
 - current_loans_request / fetchLoans_request (Prêts d'un usager)
+- current_reservations_request / fetchReservations_request (Réservations d'un usager)
 
 ------------------------------------------------------------------------
 
@@ -20,3 +21,4 @@ For the moment, the follwing webservices can be used :
 - login_request (Authentification)
 - get_patron_summary_request (Patron information)
 - current_loans_request / fetchLoans_request (Patron loans)
+- current_reservations_request / fetchReservations_request (Patron reservations)
