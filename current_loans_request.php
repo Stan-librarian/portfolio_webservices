@@ -1,4 +1,7 @@
-﻿<?php
+// ------------------------------------------------------------------------
+// Licence : GPL
+// ------------------------------------------------------------------------
+<?php
 	$myIniFile = parse_ini_file ("config.ini", TRUE, INI_SCANNER_RAW);
 	$url = $myIniFile["webservices"]["url"] ;
 	if (isset($_GET['cb']) && $_GET['cb'] != '') {
