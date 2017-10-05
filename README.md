@@ -1,4 +1,11 @@
 # portfolio_webservices
+
+------------------------------------------------------------------------
+
+Licence : GPL
+
+------------------------------------------------------------------------
+
 [French]
 
 Interrogation des webservices de Portfolio via PHP
